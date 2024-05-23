@@ -14,7 +14,7 @@ class InvoiceForm extends React.Component {
     super(props);
     this.state = {
       isOpen: false,
-      currency: '$',
+      currency: '₹',
       currentDate: '',
       invoiceNumber: 1,
       dateOfIssue: '',
